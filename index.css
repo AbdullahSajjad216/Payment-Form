@@ -1,0 +1,237 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+ 
+}
+.box
+{
+    width: 165px;
+    display: inline-block;
+}
+input[type=text]
+{
+width: 110px;
+
+}
+input[type=email],input[type=cardNumInput],input[type=num]
+{
+    width: 260px;
+}
+input[type=email],input[type=cardNumInput],input[type=num],input[type=date],input[type=text]
+{
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(73, 157, 230);
+}
+input[type=email]:hover,input[type=cardNumInput]:hover,input[type=num]:hover,input[type=date]:hover,input[type=text]:hover
+{
+    border: rgb(80, 80, 83) solid ;
+    
+
+}
+h1{
+    text-align: center;
+    background-color: rgb(238, 238, 245);
+    border-radius: 5px;
+
+}
+#heading
+{
+    height: 100%;
+    width:100%;
+    background-color: #529ff8ea;
+    color: white;
+    border-collapse: collapse;
+    margin:0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+body/*complete screen*/
+{
+background-color: white;
+}
+
+main{/* for inner type data*/
+    margin-left: 2%;
+    margin-bottom: 0%;
+   
+  
+}
+#cardinfo_heading,#contactinfo_heading
+{
+    
+    background-color:  #529ff8ea;
+    color: white;
+    width: 95%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+    
+}
+p,::placeholder{
+
+    font-size :20px;
+}
+
+#card_image
+{
+
+   height: 300px;
+   float: right;
+   margin: 40px 40px 5px 20px
+   
+}
+#complete/*only table*/
+{
+    width: 60%;
+
+    align-items: center;
+    border:  rgb(195, 191, 191) solid;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(238, 238, 245);
+}
+.submit
+{
+    background-color:  #529ff8ea;
+    color: white;
+    margin: 1%;
+    margin-left: 0;
+    padding: 1.5%;
+    width: 95%;
+    border-radius: 10px;
+    border-color: aliceblue;
+   
+  
+}
+.submit:hover
+{
+background-color: #0165CC;
+
+}
+
+/* Media query */
+@media screen and (max-width:3200px)
+ {
+  
+    #complete/*only table*/
+    {
+        width: 40%;
+    }
+}
+@media screen and (max-width:1763px)
+ {
+  
+    #complete/*only table*/
+    {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1408px)
+ {
+  
+    #complete/*only table*/
+    {
+        width: 60%;
+           background-color: rgb(238, 238, 245); 
+    }
+}
+@media screen and (max-width:1174px)
+ {
+  
+    #complete/*only table*/
+    {
+        width: 80%;
+        
+    
+      }
+}
+@media screen and (max-width:890px)
+ {
+  
+    #complete/*only table*/
+    {
+        width: 90%;
+        
+      }
+}
+@media screen and (max-width:780px)
+ {
+  
+    #complete/*only table*/
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:711px)
+ {
+  
+#card_image
+{
+   height: 250px;
+   float: right;
+   margin: 40px 40px 5px 0px
+}
+}
+@media screen and (max-width:643px)
+ {
+  
+   
+#card_image
+{
+   height: 200px;
+   float: right;
+   margin: 40px 40px 0px 0px
+   
+}
+}
+@media screen and (max-width:595px)
+ {
+  
+   
+#card_image
+{ 
+   height: 0px;
+   box-sizing: border-box;
+   float: right;
+   margin: 20px 40px 0px 0px  
+}
+input[type=date],input[type=text]
+{
+    height: 30px;
+   margin: 4px;
+   width: 150px;
+}
+.box
+{
+    width: 200px;
+    
+}
+}
+@media screen and (max-width:433px)
+ {
+  
+   input[type=date],input[type=text]
+{
+    height: 30px;
+   margin: 4px;
+   width: 120px;
+}
+.box
+{
+    width: 150px;
+    
+}
+}
+@media screen and (max-width:433px)
+ {
+  
+  bor
+  };
+}
+
